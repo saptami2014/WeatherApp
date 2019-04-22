@@ -13,6 +13,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    
+        WeatherJSON.forecast(withLocation: "37.8267, -122.4233")
+        {
+            (results: [WeatherJSON]) in
+            for result in results
+            {
+                print("\(result)\n\n")
+            }
+        }
     }
 
 

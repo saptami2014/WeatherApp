@@ -14,6 +14,7 @@
 		86CB7C3B226B52DE00EDD4EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86CB7C39226B52DE00EDD4EF /* LaunchScreen.storyboard */; };
 		86CB7C46226B52DF00EDD4EF /* WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CB7C45226B52DF00EDD4EF /* WeatherAppTests.swift */; };
 		86CB7C51226B52DF00EDD4EF /* WeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CB7C50226B52DF00EDD4EF /* WeatherAppUITests.swift */; };
+		86CB7C5F226B5DB600EDD4EF /* WeatherJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CB7C5E226B5DB600EDD4EF /* WeatherJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		86CB7C4C226B52DF00EDD4EF /* WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86CB7C50226B52DF00EDD4EF /* WeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppUITests.swift; sourceTree = "<group>"; };
 		86CB7C52226B52DF00EDD4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86CB7C5E226B5DB600EDD4EF /* WeatherJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				86CB7C30226B52D400EDD4EF /* AppDelegate.swift */,
+				86CB7C5E226B5DB600EDD4EF /* WeatherJSON.swift */,
 				86CB7C32226B52D500EDD4EF /* ViewController.swift */,
 				86CB7C34226B52D500EDD4EF /* Main.storyboard */,
 				86CB7C37226B52DE00EDD4EF /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			files = (
 				86CB7C33226B52D500EDD4EF /* ViewController.swift in Sources */,
 				86CB7C31226B52D400EDD4EF /* AppDelegate.swift in Sources */,
+				86CB7C5F226B5DB600EDD4EF /* WeatherJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
